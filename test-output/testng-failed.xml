@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testSuite]">
+  <listeners>
+    <listener class-name="com.fico.listeners.ListenerForTests"/>
+  </listeners>
+  <test thread-count="5" name="testSet(failed)">
+    <classes>
+      <class name="com.fico.tests.TestClass2">
+        <methods>
+          <include name="testCase3"/>
+        </methods>
+      </class> <!-- com.fico.tests.TestClass2 -->
+    </classes>
+  </test> <!-- testSet(failed) -->
+</suite> <!-- Failed suite [testSuite] -->
